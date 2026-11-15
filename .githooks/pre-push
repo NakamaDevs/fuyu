@@ -1,0 +1,3 @@
+#!/bin/sh
+set -eu
+python3 .nakama/kaicho_delivery.py branch --format-only

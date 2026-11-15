@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "governance_version": "2.1.0",
+  "repository": "NakamaDevs/fuyu",
+  "default_branch": "main",
+  "mode": "solo",
+  "source_commit": "91ec23b858c2d6aa74a987901592c7493259e89d",
+  "source": "NakamaDevs/Kaicho",
+  "rollout_issue": "GMD-23",
+  "existing_branches": []
+}

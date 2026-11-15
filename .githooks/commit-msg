@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+python3 .nakama/kaicho_delivery.py branch --format-only
+python3 .nakama/kaicho_delivery.py commit "$1"

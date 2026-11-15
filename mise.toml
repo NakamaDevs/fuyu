@@ -1,0 +1,10 @@
+[tools]
+node = "24.18.0"
+
+[tasks.verify]
+description = "Run delivery checks, game tests, and the production build"
+run = ["python3 .nakama/kaicho_delivery.py self-test", "npm run validate"]
+
+[tasks."git-hooks:install"]
+description = "Install repository commit and branch checks"
+run = "git config core.hooksPath .githooks"

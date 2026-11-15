@@ -1,0 +1,26 @@
+
+> fuyu@0.2.0 test
+> node --test tests/*.test.js
+
+✔ walking and running use distinct speeds and running drains energy (0.824958ms)
+✔ WASD and arrows are equivalent; discrete keys use pressed state (0.6ms)
+✔ jump works in both views and final form jumps higher (0.211208ms)
+✔ isometric diagonal movement is normalized (0.126375ms)
+✔ attacks spend energy, respect cooldown, range and form damage (0.203833ms)
+✔ damage grants invulnerability; dash also protects and death respawns (0.100333ms)
+✔ dash requires upgrade, consumes energy and crosses ivy; works isometrically (0.146666ms)
+✔ bottles are single-use and fountain restores regular enemies only (0.119791ms)
+✔ localization has key parity and defaults safely to Spanish (0.210417ms)
+✔ boss gates, both upgrades, and human ending form a reproducible complete progression (1.202ms)
+✔ fixed-step player inputs defeat the first boss without resource resets (1.224292ms)
+✔ death from enemy contact respawns at the fountain checkpoint through ticks (1.546958ms)
+✔ isometric run and dash follow normalized directions through tick inputs (0.157792ms)
+✔ jump, attack and dash inputs are active in both gameplay views (0.145166ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 67.204375

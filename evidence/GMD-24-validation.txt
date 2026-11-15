@@ -1,0 +1,51 @@
+
+> fuyu@0.2.0 validate
+> npm test && npm run build
+
+
+> fuyu@0.2.0 test
+> node --test tests/*.test.js
+
+✔ unsupported fullscreen expands the viewport and always allows exit (0.594875ms)
+✔ rejected native fullscreen falls back and Escape exits (0.122625ms)
+✔ native fullscreen exit and external exit synchronize the button (0.13ms)
+✔ walking and running use distinct speeds and running drains energy (2.170166ms)
+✔ WASD and arrows are equivalent; discrete keys use pressed state (0.907792ms)
+✔ jump works in both views and final form jumps higher (0.2565ms)
+✔ isometric diagonal movement is normalized (0.139833ms)
+✔ attacks spend energy, respect cooldown, range and form damage (0.218666ms)
+✔ damage grants invulnerability; dash also protects and death respawns (0.114417ms)
+✔ dash requires upgrade, consumes energy and crosses ivy; works isometrically (0.148167ms)
+✔ bottles are single-use and fountain restores regular enemies only (0.123417ms)
+✔ localization has key parity and defaults safely to Spanish (0.214583ms)
+✔ boss gates, both upgrades, and human ending form a reproducible complete progression (1.22075ms)
+✔ fixed-step player inputs defeat the first boss without resource resets (0.986583ms)
+✔ death from enemy contact respawns at the fountain checkpoint through ticks (1.320542ms)
+✔ isometric run and dash follow normalized directions through tick inputs (0.245167ms)
+✔ jump, attack and dash inputs are active in both gameplay views (0.851917ms)
+✔ joystick dead zone, diagonals, and normalized outer run ring (2.007583ms)
+✔ joystick and action pointers work together and release independently (0.625709ms)
+✔ shared action ownership and lifecycle resets (0.780542ms)
+✔ button feedback, disabled controls and explicit reset (0.166292ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 88.378291
+
+> fuyu@0.2.0 build
+> vite build
+
+vite v8.3.8 building client environment for production...
+transforming...
+✓ 12 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  5.14 kB │ gzip:  1.65 kB
+dist/assets/index-BXi8rpdk.css  12.71 kB │ gzip:  3.78 kB
+dist/assets/index-ByKOZ4cG.js   40.07 kB │ gzip: 17.01 kB
+
+✓ built in 95ms

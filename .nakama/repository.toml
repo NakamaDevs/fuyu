@@ -1,0 +1,17 @@
+schema_version = 1
+repository = "NakamaDevs/fuyu"
+kind = "single"
+delivery_policy_version = "2.1.0"
+
+[linear]
+team = "GMD"
+project = "Fuyu"
+project_id = "39a06d84-3aa7-4f59-a17a-e0911d065077"
+
+[quality]
+quick = "npm test"
+full = "mise run verify"
+hooks_install = "mise run git-hooks:install"
+
+[harness]
+agent_ready = false
